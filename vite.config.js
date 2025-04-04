@@ -24,9 +24,9 @@ import vue from '@vitejs/plugin-vue'
 import Components from 'unplugin-vue-components/vite'
 import {BootstrapVueNextResolver} from 'bootstrap-vue-next'
 
-module.exports
+// module.exports
 export default defineConfig({
-  publicPath: process.env.NODE_ENV === 'production' ? '/dist/' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/portfolio-website-v1/' : '/',
   plugins: [
     vue(),
     Components({

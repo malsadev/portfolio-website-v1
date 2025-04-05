@@ -12,18 +12,24 @@
 
             <div class="row">
                 <div class="col-lg-12 px-0">
-                <h1 class="px-0 display-4 fw-bold projects-header">Past <span style="color: deeppink;">Projects</span>
-                </h1>
-            </div>
+                    <h1 class="px-0 display-4 fw-bold projects-header">Past <span
+                            style="color: deeppink;">Projects</span>
+                    </h1>
+                </div>
             </div>
             <hr class="featurette-divider">
 
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span
-                            class="text-body-secondary">It’ll blow your mind.</span></h2>
+                    <h2 class="featurette-heading fw-normal lh-1">First featurette heading</h2>
                     <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting
                         prose here.</p>
+                    <div class="d-flex flex-column col-3">
+                        <a class="custom-btn">Button</a>
+                        <a class="custom-btn">Button</a>
+                    </div>
+
+
                 </div>
                 <div class="col-md-5">
                     <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
@@ -88,6 +94,62 @@
 </template>
 
 <style scoped>
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.custom-btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 1;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: fit-content;
+  padding: 1rem 1.2rem;
+
+  position: relative;
+  margin-top: 3rem;
+
+  cursor: pointer;
+}
+
+@media (max-width: 560px) {
+  .custom-btn {
+    margin-top: 2rem;
+  }
+}
+
+.custom-btn::after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  background-color: deeppink;
+
+  width: 100%;
+  bottom: 1px;
+  display: block;
+
+  transform-origin: bottom;
+  transition: all 0.25s;
+
+  z-index: -1;
+}
+
+.custom-btn:hover {
+  color: black;
+}
+
+.custom-btn:hover::after {
+  height: 100%;
+}
+
+
 .marketing .col-lg-4 {
     margin-bottom: 1.5rem;
     text-align: center;

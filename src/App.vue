@@ -17,14 +17,15 @@ import Projects from './components/Projects.vue';
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
     </div> -->
+    <Navbar />
   </header>
 
-  <main>
+  <main id="Home">
     <!-- <TheWelcome /> -->
-     <Navbar />
-     <Hero/>
-     <About/>
-     <Projects/>
+     <!-- <Navbar /> -->
+     <Hero style="background-image: linear-gradient(to bottom, pink, pink);"/>
+     <About id="About"/>
+     <Projects id="Projects"/>
   </main>
 </template>
 

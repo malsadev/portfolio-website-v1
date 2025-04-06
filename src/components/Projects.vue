@@ -19,14 +19,14 @@
             </div>
             <hr class="featurette-divider">
 
-            <div class="row featurette">
+            <div class="row">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1">First featurette heading</h2>
+                    <h2 class="featurette-heading fw-normal lh-1">LingMe</h2>
                     <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting
                         prose here.</p>
-                    <div class="d-flex flex-column col-3">
-                        <a class="custom-btn">Button</a>
-                        <a class="custom-btn">Button</a>
+                    <div class="d-flex gap-4 mb-5">
+                        <a class="custom-btn">Live App</a>
+                        <a class="custom-btn">Learn More</a>
                     </div>
 
 
@@ -44,12 +44,15 @@
 
             <hr class="featurette-divider">
 
-            <div class="row featurette">
+            <div class="row">
                 <div class="col-md-7 order-md-2">
-                    <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span
-                            class="text-body-secondary">See for yourself.</span></h2>
+                    <h2 class="featurette-heading fw-normal lh-1">Neatifyle</h2>
                     <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of
                         how this layout would work with some actual real-world content in place.</p>
+                    <div class="d-flex gap-4 mb-5">
+                        <a class="custom-btn">Live App</a>
+                        <a class="custom-btn">Learn More</a>
+                    </div>
                 </div>
                 <div class="col-md-5 order-md-1">
                     <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
@@ -64,13 +67,16 @@
 
             <hr class="featurette-divider">
 
-            <div class="row featurette">
+            <div class="row">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span
-                            class="text-body-secondary">Checkmate.</span></h2>
+                    <h2 class="featurette-heading fw-normal lh-1">InferDB</h2>
                     <p class="lead">And yes, this is the last block of representative placeholder content. Again, not
                         really intended to be actually read, simply here to give you a better view of what this would
                         look like with some actual content. Your content.</p>
+                    <div class="d-flex gap-4 mb-5">
+                        <a class="custom-btn">Live App</a>
+                        <a class="custom-btn">Learn More</a>
+                    </div>
                 </div>
                 <div class="col-md-5">
                     <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
@@ -94,59 +100,66 @@
 </template>
 
 <style scoped>
-
 a {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
+
 .custom-btn {
-  font-size: 1.6rem;
-  font-weight: 700;
-  letter-spacing: 3px;
-  line-height: 1;
-  text-transform: uppercase;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 1;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-  width: fit-content;
-  padding: 1rem 1.2rem;
+    width: fit-content;
+    padding: 1rem 1.2rem;
 
-  position: relative;
-  margin-top: 3rem;
+    position: relative;
+    margin-top: 3rem;
 
-  cursor: pointer;
+    cursor: pointer;
 }
 
 @media (max-width: 560px) {
-  .custom-btn {
-    margin-top: 2rem;
-  }
+    .custom-btn {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .custom-btn {
+        font-size: 1rem;
+        margin-top: 0;
+    }
 }
 
 .custom-btn::after {
-  position: absolute;
-  content: '';
-  height: 2px;
-  background-color: deeppink;
+    position: absolute;
+    content: '';
+    height: 2px;
+    background-color: deeppink;
 
-  width: 100%;
-  bottom: 1px;
-  display: block;
+    width: 100%;
+    bottom: 1px;
+    display: block;
 
-  transform-origin: bottom;
-  transition: all 0.25s;
+    transform-origin: bottom;
+    transition: all 0.25s;
 
-  z-index: -1;
+    z-index: -1;
 }
 
 .custom-btn:hover {
-  color: black;
+    color: black;
 }
 
 .custom-btn:hover::after {
-  height: 100%;
+    height: 100%;
 }
 
 
@@ -155,11 +168,7 @@ a {
     text-align: center;
 }
 
-/* rtl:begin:ignore */
-.marketing .col-lg-4 p {
-    margin-right: .75rem;
-    margin-left: .75rem;
-}
+
 
 /* rtl:end:ignore */
 
@@ -200,7 +209,7 @@ a {
 
 @media (min-width: 62em) {
     .featurette-heading {
-        margin-top: 7rem;
+        margin-top: 4rem;
     }
 }
 

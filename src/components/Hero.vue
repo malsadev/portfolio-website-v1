@@ -174,8 +174,8 @@ import {VueWriter} from 'vue-writer'
 
         <div class="container mt-5 mb-10">
             <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3">
-                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-                    <h1 class="display-2 fw-bold lh-1 text-body-emphasis">Hi, my name is <span style="color: #ff1493;">roninja.</span>
+                <div class="col-lg-6 p-3 p-lg-5 pt-lg-3 mt-3">
+                    <h1 class="display-2 fw-bold lh-1 text-body-emphasis">Hi, my name is <span style="color: #ff1493;">Mustafa.</span>
                     </h1>
                     
                     <h2 class="text-nowrap display-6 lh-1 text-body-emphasis my-4">I am a <VueWriter style="color: deeppink;" class="d-inline-block" @typed="onTyped" :caret="cursor" :eraseSpeed="50" :delay="1000" :typeSpeed="70" :array="['Software Engineer', 'Full-Stack Developer','Problem Solver', 'Quick Learner']" /></h2>
@@ -195,8 +195,9 @@ import {VueWriter} from 'vue-writer'
 
                     
                 </div>
-                <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-                    <img class="rounded-lg-3" src="./bootstrap-docs.png" alt="" width="720">
+                <div class="col-lg-6 p-0 overflow-hidden">
+                    <img class="rounded-lg-3" src="../assets/developer-working.svg" alt="" width="650">
+                    <!-- decrease the size of the image as the screen goes down -->
                 </div>
             </div>
         </div>

@@ -26,7 +26,7 @@ import {BootstrapVueNextResolver} from 'bootstrap-vue-next'
 
 // module.exports
 export default defineConfig({
-  publicPath: process.env.NODE_ENV === 'production' ? '/portfolio-website-v1/' : '/',
+  base: '/portfolio-website-v1/',
   plugins: [
     vue(),
     Components({

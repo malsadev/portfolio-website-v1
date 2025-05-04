@@ -21,24 +21,26 @@
 
             <div class="row">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1">LingMe</h2>
-                    <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting
-                        prose here.</p>
+                    <h2 class="featurette-heading fw-normal lh-1">CourseMate</h2>
+                    <p class="lead">Fullstack Mobile application to help students and teaching instructors manage their university courses
+                        built with Java, Android Studio, and Firebase
+                    </p>
                     <div class="d-flex gap-4 mb-5">
-                        <a class="custom-btn">Live App</a>
-                        <a class="custom-btn">Learn More</a>
+                        <a target="_blank" href="https://www.youtube.com/watch?v=spZfR1_5y-U&t=1s" class="custom-btn">Demo</a>
+                        <a target="_blank" href="https://github.com/malsadev/CourseMate" class="custom-btn">Learn More</a>
                     </div>
 
 
                 </div>
                 <div class="col-md-5">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
-                            fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-                    </svg>
+                    <img
+                        src="https://opengraph.githubassets.com/1/malsadev/CourseMate"
+                        alt="CourseMate Project Preview"
+                        class="featurette-image img-fluid mx-auto"
+                        width="500"
+                        height="500"
+                        style="object-fit: cover;"
+                    />
                 </div>
             </div>
 
@@ -46,22 +48,24 @@
 
             <div class="row">
                 <div class="col-md-7 order-md-2">
-                    <h2 class="featurette-heading fw-normal lh-1">Neatifyle</h2>
-                    <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of
-                        how this layout would work with some actual real-world content in place.</p>
+                    <h2 class="featurette-heading fw-normal lh-1">HotelHub</h2>
+                    <p class="lead">A fullstack web application to streamline the process of booking hotel rooms built
+                        with Python Django, PostgreSQL, and React
+                    </p>
                     <div class="d-flex gap-4 mb-5">
-                        <a class="custom-btn">Live App</a>
-                        <a class="custom-btn">Learn More</a>
+                        <a class="custom-btn" target="_blank" href="https://github.com/malsadev/HotelHub" tatclass="custom-btn">Learn More</a>
+                        <!-- <a class="custom-btn">Learn More</a> -->
                     </div>
                 </div>
                 <div class="col-md-5 order-md-1">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
-                            fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-                    </svg>
+                    <img
+                        src="https://opengraph.githubassets.com/1/malsadev/HotelHub"
+                        alt="Neatifyle Project Preview"
+                        class="featurette-image img-fluid mx-auto"
+                        width="500"
+                        height="500"
+                        style="object-fit: cover;"
+                    />
                 </div>
             </div>
 
@@ -69,23 +73,24 @@
 
             <div class="row">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1">InferDB</h2>
-                    <p class="lead">And yes, this is the last block of representative placeholder content. Again, not
-                        really intended to be actually read, simply here to give you a better view of what this would
-                        look like with some actual content. Your content.</p>
+                    <h2 class="featurette-heading fw-normal lh-1">ProjectBuddies</h2>
+                    <p class="lead">A frontend for a fictional service based company with support for internationalization
+                        built with React Bootstrap, i18Next, and hosted on Netlify     
+                    </p>
                     <div class="d-flex gap-4 mb-5">
-                        <a class="custom-btn">Live App</a>
-                        <a class="custom-btn">Learn More</a>
+                        <a target="_blank" href="https://669b56f80171181a9eb7ceb7--classy-axolotl-d1e230.netlify.app/" class="custom-btn">Live App</a>
+                        <a target="_blank" href="https://github.com/malsadev/ProjectBuddies" class="custom-btn">Learn More</a>
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
-                            fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-                    </svg>
+                    <img
+                        src="https://opengraph.githubassets.com/1/malsadev/ProjectBuddies"
+                        alt="ProjectBuddies Project Preview"
+                        class="featurette-image img-fluid mx-auto"
+                        width="500"
+                        height="500"
+                        style="object-fit: cover;"
+                    />
                 </div>
             </div>
 
@@ -162,40 +167,35 @@ a {
     height: 100%;
 }
 
-
 .marketing .col-lg-4 {
     margin-bottom: 1.5rem;
     text-align: center;
 }
 
+/* Add borders and shadows to images */
+.featurette-image {
+    border: 5px solid rgb(76, 71, 71);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(20, 1, 1, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
 
-
-/* rtl:end:ignore */
-
+.featurette-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
 
 /* Featurettes
 ------------------------- */
-
-/* .projects-header {
-    margin: 5rem;
-    margin-left: 0;
-} */
-
 .featurette-divider {
     margin: 5rem 0;
-    /* Space out the Bootstrap <hr> more */
 }
 
-/* Thin out the marketing headings */
-/* rtl:begin:remove */
 .featurette-heading {
     letter-spacing: -.05rem;
 }
 
-
 @media (min-width: 40em) {
-
-    /* Bump up size of carousel content */
     .carousel-caption p {
         margin-bottom: 1.25rem;
         font-size: 1.25rem;

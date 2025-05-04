@@ -7,7 +7,7 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img src="../assets/free-logo.svg" style="width:80px;"/></a>
+                <a class="navbar-brand" href="#"><img src="../assets/image.png" style="width:50px;"/></a>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul class="navbar-nav fs-5 fw-normal ms-auto mb-2 mb-lg-0 gap-3">
                         <li class="nav-item">

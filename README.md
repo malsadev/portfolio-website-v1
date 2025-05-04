@@ -1,6 +1,6 @@
 # portfolio-website-v1
 
-malsadev.github.io/portfolio-website-v1/
+https://malsadev.github.io/portfolio-website-v1
 
 ## Recommended IDE Setup
 

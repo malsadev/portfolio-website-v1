@@ -16,7 +16,7 @@ import {VueWriter} from 'vue-writer'
                 <div class="d-flex gap-2 justify-content-md-start mb-4 mb-lg-3">
                     <a
                         class="btn btn-dark btn-lg px-4 me-md-2 fw-bold hover-scale"
-                        href="/portfolio-website-v1/Mustafa_Resume.pdf"
+                        href="/portfolio-website-v1/Mustafa_Resume2.pdf"
                         target="_blank"
                         
                         

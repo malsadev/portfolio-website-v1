@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #https://learnvue.co/articles/deploy-vue-to-github-pages
-git branch -d <branch_name>
+git branch -d gh-pages
 
 npm install
 
